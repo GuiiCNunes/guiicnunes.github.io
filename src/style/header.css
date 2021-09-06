@@ -1,0 +1,36 @@
+.main-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.main-header {
+  background-color: var(--main-bg-color);
+}
+
+.main-header-nav a {
+  padding: 3px;
+}
+
+.main-header-img {
+  width: 40px;
+  height: 40px;
+}
+
+.main-header-nav-list {
+  list-style: none;
+}
+
+.main-header-nav-list li{
+  display: inline-block;
+}
+
+.main-header-nav-list li a{
+  display: inline-block;
+	text-decoration: none;
+	transition: 0.15s;
+	padding: 20px;
+	color: #fff;
+	cursor: pointer;
+}
