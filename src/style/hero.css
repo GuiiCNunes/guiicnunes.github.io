@@ -1,0 +1,38 @@
+.hero {
+  margin: auto 0;
+  height: calc(100vh - 58px);
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 80vw;
+}
+
+.hero-image {
+  max-width: 40vw;
+  max-height: 40vh;
+  margin: -25vh -8vw 0 0;
+  z-index: 10;
+  background-color: cornsilk;
+  border-radius: 7%;
+}
+
+.hero-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  min-height: 35vh;
+  max-width: 600px;
+  background-color: var(--main-bg-color);
+  border-radius: 1vw;
+}
+
+.hero-about p{
+  margin-left: 8vw;
+  padding: 20px;
+}
