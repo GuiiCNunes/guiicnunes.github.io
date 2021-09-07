@@ -1,3 +1,4 @@
+import TimelineComponent from './TimelineComponent';
 import '../style/whoIAm.css';
 import whoIamImage from '../images/who-i-am-image.jpeg';
 
@@ -17,7 +18,7 @@ export default function WhoIAm() {
           </section>
         </section>
         <section className="who-i-am-timeline">
-          Aqui vai a time line
+          <TimelineComponent />
         </section>
       </article>
     </section>
