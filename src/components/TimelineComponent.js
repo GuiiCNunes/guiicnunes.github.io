@@ -12,28 +12,28 @@ export default function TimelineComponent() {
     <Timeline align="alternate">
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot variant="outlined" />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent className='fix-position'>Eat</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="primary" />
+          <TimelineDot variant="outlined" color="primary" />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent>Code</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color="secondary" />
+          <TimelineDot variant="outlined" color="secondary" />
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent className='fix-position'>Sleep</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot />
+          <TimelineDot variant="outlined" />
         </TimelineSeparator>
         <TimelineContent>Repeat</TimelineContent>
       </TimelineItem>
