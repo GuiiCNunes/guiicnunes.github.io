@@ -1,0 +1,41 @@
+.who-i-am {
+  height: 100vh;
+  padding-top: 58px;
+}
+
+.who-i-am-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 90vw;
+}
+
+.who-i-am-content-about {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  min-height: 35vh;
+}
+
+.who-i-am-timeline {
+  height: 35vh;
+  width: 100%;
+  text-align: center;
+}
+
+.who-i-am-content-image {
+  border-radius: 7%;
+  max-width: 40vw;
+  max-height: 40vh;
+  align-self: center;
+}
+
+.who-i-am-text {
+  padding: 2vh;
+  border-radius: 15px;
+  background-color: var(--main-bg-color);
+  max-width: 50vw;
+}
