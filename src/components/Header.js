@@ -1,10 +1,11 @@
 import '../style/header.css';
+import headerImage from '../images/astronauta.ico';
 
 export default function Header() {
   return (
     <header className='main-header'>
       <nav className='main-header-nav'>
-        <img alt='Icone de astronauta' src='./Icone/capacete-de-astronauta.ico' className='main-header-img'/>
+        <img alt='Icone de astronauta' src={ headerImage } className='main-header-img'/>
         <ul className='main-header-nav-list'>
           <li><a href='#'>Quem sou</a></li>
           <li><a href='#'>Experiência</a></li>
