@@ -1,0 +1,8 @@
+.cardProjects {
+  width: 20vw;
+  background-color: chartreuse;
+}
+
+.cardProjects img {
+  width: 80%;
+}
