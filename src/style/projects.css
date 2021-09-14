@@ -2,3 +2,9 @@
   height: 100vh;
   padding-top: 58px;
 }
+
+.center {
+  width: 90vw;
+  /* margin: calc(5vh + 58px) auto; */
+  margin: 20vh auto 0 auto;
+}
