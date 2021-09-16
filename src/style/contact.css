@@ -1,0 +1,26 @@
+.contact {
+  height: 100vh;
+  padding-top: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContact {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 75%;
+  margin: 12px;
+}
+
+.cardContact img {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.links {
+  width: 45vw;
+}
