@@ -1,4 +1,75 @@
-.App {
+:root {
+  --color-one: #405673;
+  --color-two: #A7F2C1;
+  --color-three: #637340;
+  --color-four: #A68776;
+  --color-five: #F2CBBD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-one) ;
+}
+
+.page {
+  height: 100vh;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 80vw;
+}
+
+.page-image {
+  max-width: 40vw;
+  max-height: 40vh;
+  margin: -25vh -8vw 0 0;
+  z-index: 2;
+  border-radius: 7%;
+}
+
+.page-text {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  border-radius: 5px;
+  min-height: 35vh;
+  max-width: 600px;
+  background-color: var(--color-five);
+  border-radius: 1vw;
+}
+
+.page-text p{
+  margin-left: 8vw;
+  padding: 15px;
+  /* color: var(--color-one); */
+  
+}
+
+.page-text span{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.page-text nav{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3vh 8vw;
+}
+
+.page-text img{
+  width: 50px;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +106,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
